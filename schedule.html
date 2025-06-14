@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="schedule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="navbar"></header>
+    <main>
+        <div class="schedulecontainer">
+            <div class="scheduleleft">
+                <button>Your Items</button>
+            </div>
+            <div class="scheduleright">
+                <div class="div1">
+                    <div class="schedulepickup">
+                        <img src="/Img/schedulepickup.png" alt="">
+                        <h2>Schedule Pickup</h2>
+                    </div>
+                    <div id="schedulepickupalt">
+                        <h2>Which date & time?</h2>
+                        <img src="/Img/calendar.png" alt="calendar">
+                        <form>
+                            <label for="pickup">Schedule Pickup:</label>
+                            <input type="date" id="pickup" name="pickup">
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="scheduleaddress">
+                        <img src="/Img/scheduletruck.png" alt="">
+                        <h2>Pickup at address</h2>
+                    </div>
+                    <div id="scheduleaddressalt">
+                        <h2>Your Address?</h2><br>
+                        <input type="text" placeholder="Room no and Building name">
+                        <input type="text" placeholder="Nearest Landmark">
+                        <input type="text" placeholder="City and Pincode">
+                        <input type="submit">
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="schedulepayment">
+                        <img src="/Img/schedulepayment.png" alt="">
+                        <h2>Payment</h2>
+                    </div>
+                    <div id="schedulepaymentalt">
+                        <h2>Choose Mode</h2>
+                        <a href=""><img src="/Img/Gpay.png" alt="Gpay"></a> <br>
+                        <img src="/Img/Paytm.png" alt="Paytm"><br>
+                        <img src="/Img/PhonePe.png" alt="PhonePe"><br>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="schedulequery">
+                        <img src="/Img/schedulequery.png" alt="">
+                        <h2>Contact Us</h2>
+                        <p>for any query</p>
+                    </div>
+                    <div id="schedulequeryalt">
+                        <address>
+                            <p>Contact the author of this page:</p>
+                            <a href="mailto:ecoscrap@gmail.com">ecoscrap@gmail.com</a><br>
+                            <a href="tel:+13115552368">(311) 555-2368</a>
+                        </address>
+                    </div>
+                </div>
+                <button>Book</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
